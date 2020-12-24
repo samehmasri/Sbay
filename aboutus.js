@@ -17,3 +17,25 @@ if (y == true) {
 } else {
     alert('thank you');
 }
+var carName = prompt('Eneter your favorite car name')
+console.log(carName)
+
+while (carName === '' || carName === null) {
+    carName = prompt('Enter your favorite car name');
+}
+
+console.log(carName);
+
+
+var c = prompt('Eneter from 1 to 5')
+console.log(c)
+
+while (c === '' || c === null) {
+    c = prompt('Enter your favorite car name');
+}
+
+for(var i = 1; i<=c; i++){
+    document.write("<img src='https://images.bunches.co.uk/products/large/flowers-for-a-year-1.jpg'>")
+}
+
+
